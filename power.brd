@@ -1636,7 +1636,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP1" library="SparkFun-Connectors" package="1X08" value="" x="23.97125" y="3.81" smashed="yes" rot="R90">
 <attribute name="VALUE" x="27.14625" y="2.54" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="IC2" library="linear" package="TO263-5" value="" x="11.27125" y="19.84375" smashed="yes" rot="R90">
+<element name="IC1" library="linear" package="TO263-5" value="" x="11.27125" y="19.84375" smashed="yes" rot="R90">
 <attribute name="VALUE" x="16.85925" y="26.70175" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D1" library="diode" package="DO41-7.6" value="1N5824" x="20.6375" y="20.0025" smashed="yes" rot="R90"/>
@@ -1647,7 +1647,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MF" value="" x="-51.91125" y="-9.8425" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="9731601" x="-51.91125" y="-9.8425" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L2" library="SparkFun-Passives" package="SRU1038" value="" x="17.145" y="5.08" rot="R315"/>
+<element name="L1" library="SparkFun-Passives" package="SRU1038" value="" x="17.145" y="5.08" rot="R315"/>
 </elements>
 <signals>
 <signal name="VSS">
@@ -1657,9 +1657,9 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D1" pad="A"/>
 <contactref element="C1" pad="-"/>
 <contactref element="PWR" pad="2"/>
-<contactref element="IC2" pad="3"/>
-<contactref element="IC2" pad="6"/>
-<contactref element="IC2" pad="5"/>
+<contactref element="IC1" pad="3"/>
+<contactref element="IC1" pad="6"/>
+<contactref element="IC1" pad="5"/>
 <wire x1="10.2365875" y1="10.995634375" x2="10.2365875" y2="19.685" width="1.016" layer="1"/>
 <wire x1="10.2365875" y1="19.685" x2="10.2365875" y2="19.84375" width="1.016" layer="1"/>
 <wire x1="10.2365875" y1="19.84375" x2="8.73125" y2="19.84375" width="1.016" layer="1"/>
@@ -1676,8 +1676,8 @@ Please make sure your boards conform to these design rules.</description>
 <signal name="+5V">
 <contactref element="JP1" pad="7"/>
 <contactref element="C1" pad="+"/>
-<contactref element="IC2" pad="4"/>
-<contactref element="L2" pad="2"/>
+<contactref element="IC1" pad="4"/>
+<contactref element="L1" pad="2"/>
 <wire x1="17.06245" y1="21.54555" x2="22.225" y2="21.54555" width="1.016" layer="1"/>
 <wire x1="12.623409375" y1="11.8643625" x2="12.54125" y2="10.63625" width="1.016" layer="1"/>
 <wire x1="12.54125" y1="10.63625" x2="11.7475" y2="8.73125" width="1.016" layer="1" curve="-37.585097"/>
@@ -1732,7 +1732,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP2" pad="7"/>
 </signal>
 <signal name="V+">
-<contactref element="IC2" pad="1"/>
+<contactref element="IC1" pad="1"/>
 <contactref element="PWR" pad="1"/>
 <wire x1="7.14375" y1="11.58875" x2="7.46125" y2="11.90625" width="1.016" layer="16"/>
 <wire x1="7.46125" y1="11.90625" x2="13.49375" y2="13.49375" width="1.016" layer="16" curve="-60.512859"/>
@@ -1740,9 +1740,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="13.49375" y1="13.49375" x2="17.06245" y2="16.44015" width="1.016" layer="1" curve="110.113503"/>
 </signal>
 <signal name="VOUT">
-<contactref element="IC2" pad="2"/>
+<contactref element="IC1" pad="2"/>
 <contactref element="D1" pad="C"/>
-<contactref element="L2" pad="1"/>
+<contactref element="L1" pad="1"/>
 <wire x1="20.6375" y1="16.1925" x2="20.6375" y2="16.8275" width="1.016" layer="1"/>
 <wire x1="20.6375" y1="16.8275" x2="19.3675" y2="18.0975" width="1.016" layer="1" curve="90"/>
 <wire x1="19.3675" y1="18.0975" x2="17.06245" y2="18.14195" width="1.016" layer="1" curve="-2.209481"/>
