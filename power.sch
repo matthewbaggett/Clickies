@@ -9345,7 +9345,7 @@ SDR0403-560KL - 56uH, 10%, 500mA RMS/740mA peak</description>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" deviceset="V+" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="680uf"/>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="220uf"/>
 <part name="PWR" library="con-molex" deviceset="22-?-02" device="05-7028"/>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="SRU1038"/>
 </parts>

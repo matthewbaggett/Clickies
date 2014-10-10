@@ -1640,7 +1640,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="VALUE" x="16.85925" y="26.70175" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="D1" library="diode" package="DO41-7.6" value="1N5824" x="20.6375" y="20.0025" smashed="yes" rot="R90"/>
-<element name="C1" library="rcl" package="E2,5-6" value="680uf" x="11.43" y="11.43" smashed="yes" rot="R200"/>
+<element name="C1" library="rcl" package="E2,5-6" value="220uf" x="11.43" y="11.43" smashed="yes" rot="R200"/>
 <element name="PWR" library="con-molex" package="7395-02" value="22-05-7028-02" x="5.87375" y="11.58875" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="-51.91125" y="-9.8425" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-51.91125" y="-9.8425" size="1.778" layer="27" display="off"/>
