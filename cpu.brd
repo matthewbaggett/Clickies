@@ -1781,15 +1781,15 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="21.5265" y="13.3985" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="22.0345" y="13.43025" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="R2" library="SparkFun-Passives" package="0402-RES" value="" x="18.415" y="9.36625" smashed="yes">
+<element name="R2" library="SparkFun-Passives" package="0402-RES" value="150Ohm" x="18.415" y="9.36625" smashed="yes">
 <attribute name="NAME" x="19.90725" y="8.9535" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="17.3355" y="8.22325" size="0.4064" layer="27"/>
 </element>
-<element name="R3" library="SparkFun-Passives" package="0402-RES" value="" x="18.415" y="8.09625" smashed="yes">
+<element name="R3" library="SparkFun-Passives" package="0402-RES" value="150Ohm" x="18.415" y="8.09625" smashed="yes">
 <attribute name="NAME" x="19.90725" y="7.6835" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="17.3355" y="6.95325" size="0.4064" layer="27"/>
 </element>
-<element name="R4" library="SparkFun-Passives" package="0402-RES" value="" x="18.415" y="6.82625" smashed="yes">
+<element name="R4" library="SparkFun-Passives" package="0402-RES" value="100Ohm" x="18.415" y="6.82625" smashed="yes">
 <attribute name="NAME" x="19.90725" y="6.4135" size="0.4064" layer="25"/>
 <attribute name="VALUE" x="17.3355" y="5.68325" size="0.4064" layer="27"/>
 </element>

@@ -5555,9 +5555,9 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="YELLOW"/>
 <part name="D3" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150Ohm"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150Ohm"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="100Ohm"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
